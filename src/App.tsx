@@ -1,7 +1,8 @@
 import './App.css';
 
+const button_order = [7, 8, 9, 4, 5, 6, 1, 2, 3, 0];
+
 function App() {
-  const button_order = [7, 8, 9, 4, 5, 6, 1, 2, 3, 0];
 
   return (
     <>
@@ -23,7 +24,7 @@ function App() {
         <div id="operators">
           <div id="divide">÷</div>
           <div id="multiply">×</div>
-          <div id="subtract">-</div>
+          <div id="subtract">−</div>
           <div id="add">+</div>
           <div id="equals">=</div>
         </div>

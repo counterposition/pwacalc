@@ -14,6 +14,7 @@
 #output {
   background-color: rgb(57, 57, 57);
   color: white;
+  text-align: right;
 }
 
 #input {
@@ -40,4 +41,20 @@
 
 #operators > div {
   flex: 1;
+}
+
+#operands > div:nth-last-child(2) {
+  grid-column-start: 1;
+  grid-column-end: -2;
+}
+
+#equals {
+  background-color: green;
+}
+
+@media (orientation: landscape) {
+  #root {
+    /* Why this particular value? It's the CSS width of the iPhone 12 Pro Max */
+    max-width: 428px;
+  }
 }
